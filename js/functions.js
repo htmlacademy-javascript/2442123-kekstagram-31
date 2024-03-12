@@ -1,5 +1,5 @@
 
-// Функция 1
+// Функция 1//
 function calculatingString(string, length) {
     if (string.length >= length) {
         return false;
@@ -11,7 +11,7 @@ function calculatingString(string, length) {
 }
 
 
-// Функция 2
+// Функция 2//
 function checkPalindrome(string = '') {
     string = string.replaceAll(' ', '').toLowerCase();
 
@@ -23,7 +23,7 @@ function checkPalindrome(string = '') {
     return string === reversedline;
 }
 
-// Функция 3
+// Функция 3//
 function extractNumbers(string) {
     let result = '';
 
