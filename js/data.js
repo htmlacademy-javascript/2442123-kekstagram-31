@@ -43,8 +43,8 @@ const addingComment = () => {
     message: getRandomArrayElement(COMMENTS),
     name: getRandomArrayElement(NAMES),
   });
-  let addingComments = Array.from({length: getRandomInteger(0, 30)}, createComment);
-  return addingComments;
+  let createComments  = Array.from({length: getRandomInteger(0, 30)}, createComment);
+  return createComments ;
 };
 
 const createPhotoCard = () => ({
@@ -56,7 +56,7 @@ const createPhotoCard = () => ({
 });
 
 
-const addingPhotos = Array.from({length: 25}, createPhotoCard);
-export {addingPhotos};
+const photos = Array.from({length: 25}, createPhotoCard);
+export {photos};
 
 

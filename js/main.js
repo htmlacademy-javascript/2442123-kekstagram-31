@@ -1,6 +1,6 @@
 import './util.js';
 import './data.js';
 
-import {addingPhotos} from './data.js'
+import {photos} from './data.js';
 
-console.log(addingPhotos);
+console.log(photos);
